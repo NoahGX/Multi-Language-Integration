@@ -6,7 +6,7 @@ write_list([Head|Tail]) :-
     write(Head),
     write(' '),
     write_list(Tail).
-
+    
 % Function to reverse list
 reverse_list([], []).
 reverse_list([Head|Tail], ReversedList) :-
